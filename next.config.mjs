@@ -1,9 +1,11 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // static export
-  images: { unoptimized: true }, // needed because next/image optimization doesn't work on Pages
-  basePath: '/Maxwell_Ahorlu',   // 👈 repo name
-  assetPrefix: '/Maxwell_Ahorlu/', // required for assets to load
-}
+  output: "export", // enable static export
+  basePath: "/Maxwell_Ahorlu", // 👈 repo name
+  images: {
+    unoptimized: true, // GitHub Pages doesn’t support next/image optimization
+  },
+};
 
-export default nextConfig
+export default nextConfig;
