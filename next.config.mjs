@@ -1,20 +1,9 @@
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
-
-// export default nextConfig;
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true
-  },
-  basePath: '/Maxwell_Ahorlu',
-  assetPrefix: '/Maxwell_Ahorlu/',
+  output: 'export', // static export
+  images: { unoptimized: true }, // needed because next/image optimization doesn't work on Pages
+  basePath: '/Maxwell_Ahorlu',   // 👈 repo name
+  assetPrefix: '/Maxwell_Ahorlu/', // required for assets to load
 }
 
 export default nextConfig
