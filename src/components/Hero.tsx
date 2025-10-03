@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="flex-1 text-center lg:text-left">
             <div className="animate-fade-in-up">
               <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-                Hi, I'm{' '}
+                 I'm{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Quammy The Developer
                 </span>
@@ -25,10 +25,10 @@ const Hero = () => {
               <p className="text-xl lg:text-2xl text-gray-600 mb-8 font-light">
                  Full Stack Web & Mobile Developer | Building innovative solutions that make an impact.
               </p>
-              <p className="text-lg text-gray-500 mb-10 max-w-2xl">
+              {/* <p className="text-lg text-gray-500 mb-10 max-w-2xl">
                 Passionate about creating innovative solutions and building exceptional digital experiences 
                 that make a difference in people's lives.
-              </p>
+              </p> */}
             </div>
 
             {/* CTA Buttons */}
