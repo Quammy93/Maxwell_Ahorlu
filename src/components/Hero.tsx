@@ -19,11 +19,11 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
                 Hi, I'm{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Your Name
+                  Quammy The Developer
                 </span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 mb-8 font-light">
-                Aspiring Software Engineer | Web & Mobile Developer
+                 Full Stack Web & Mobile Developer | Building innovative solutions that make an impact.
               </p>
               <p className="text-lg text-gray-500 mb-10 max-w-2xl">
                 Passionate about creating innovative solutions and building exceptional digital experiences 
@@ -50,7 +50,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-6 justify-center lg:justify-start mt-8 animate-fade-in-up animation-delay-600">
               <a
-                href="https://github.com"
+                href="https://github.com/Quammy93"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transform hover:scale-110 transition-all duration-300"
@@ -58,7 +58,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="in/maxwell-ahorlu-6833b41ab"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transform hover:scale-110 transition-all duration-300"
@@ -66,7 +66,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="Quammy93@gmail.com"
                 className="text-gray-600 hover:text-blue-600 transform hover:scale-110 transition-all duration-300"
               >
                 <Mail size={24} />
