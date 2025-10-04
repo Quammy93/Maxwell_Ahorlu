@@ -7,10 +7,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Quammy93", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/maxwell-ahorlu-6833b41ab/", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:john@example.com", label: "Email" }
+    { icon: Mail, href: "mailto:Quammy93@gmail.com", label: "Email" }
   ];
 
   const quickLinks = [
@@ -29,7 +29,7 @@ const Footer = () => {
             {/* Brand Section */}
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-                John Doe
+                Maxwell, Ahorlu
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Aspiring Software Engineer passionate about creating innovative solutions that make a difference. 
