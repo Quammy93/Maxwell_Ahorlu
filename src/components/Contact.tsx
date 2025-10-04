@@ -41,21 +41,21 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
+      value: "Quammy93@gmail.com.com",
       link: "mailto:john.doe@example.com",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      value: "+233 (024) 4534628",
+      link: "tel:++244534628",
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "New York, NY",
+      value: "Accra, Ghana",
       link: "https://maps.google.com",
       color: "from-purple-500 to-pink-500"
     }

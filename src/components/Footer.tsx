@@ -9,7 +9,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Quammy93", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/maxwell-ahorlu-6833b41ab/", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Twitter, href: "https://twitter.com/Dev_MacCitY", label: "Twitter" },
     { icon: Mail, href: "mailto:Quammy93@gmail.com", label: "Email" }
   ];
 
@@ -69,9 +69,9 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-6">Get In Touch</h4>
               <div className="space-y-3 text-gray-300">
-                <p>john.doe@example.com</p>
-                <p>+1 (555) 123-4567</p>
-                <p>New York, NY</p>
+                <p>Quammy93@gmail.com</p>
+                <p>+233 (024) 453-4628</p>
+                <p>Accra, GH</p>
               </div>
               <div className="mt-6">
                 <p className="text-sm text-gray-400 mb-2">Currently available for:</p>
@@ -93,7 +93,7 @@ const Footer = () => {
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center space-x-2 text-gray-300 mb-4 md:mb-0">
-                <span>© 2024 John Doe. Made with</span>
+                <span>© 2024 Maxwell, Ahorlu. Made with</span>
                 <Heart className="w-4 h-4 text-red-400 fill-current" />
                 <span>using Next.js & Tailwind CSS</span>
               </div>
