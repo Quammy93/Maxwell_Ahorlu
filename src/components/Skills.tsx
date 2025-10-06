@@ -11,7 +11,8 @@ const Skills = () => {
         { name: "React/Next.js", level: 90 },
         { name: "TypeScript", level: 85 },
         { name: "Tailwind CSS", level: 88 },
-        { name: "JavaScript", level: 92 }
+        { name: "JavaScript", level: 92 },
+        { name: "HTML & CSS", level: 92 },
       ]
     },
     {
@@ -22,7 +23,7 @@ const Skills = () => {
         { name: "Node.js", level: 80 },
         { name: "Python", level: 75 },
         { name: "PostgreSQL", level: 78 },
-        { name: "MongoDB", level: 72 }
+        { name: "MongoDB", level: 72 },
       ]
     },
     {
@@ -30,10 +31,8 @@ const Skills = () => {
       icon: Smartphone,
       color: "from-purple-500 to-pink-500",
       skills: [
-        { name: "React Native", level: 82 },
+        { name: "Dart", level: 82 },
         { name: "Flutter", level: 70 },
-        { name: "iOS Development", level: 65 },
-        { name: "Android Development", level: 68 }
       ]
     },
     {
@@ -44,7 +43,32 @@ const Skills = () => {
         { name: "AWS", level: 75 },
         { name: "Docker", level: 70 },
         { name: "Kubernetes", level: 65 },
-        { name: "CI/CD", level: 72 }
+        { name: "CI/CD", level: 72 },
+        { name: "Git", level: 90 },
+        { name: "GitHub Actions", level: 68 },
+
+      ]
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: Database,
+      color: "from-indigo-500 to-purple-500",
+      skills: [
+        { name: "Python", level: 90 },
+        { name: "TensorFlow", level: 85 },
+        { name: "PyTorch", level: 80 },
+        { name: "OpenAI API", level: 85 }
+      ]
+    },
+    {
+      title: "Cloud Platforms",
+      icon: Cloud,
+      color: "from-cyan-500 to-blue-500",
+      skills: [
+        { name: "AWS Services", level: 78 },
+        { name: "Google Cloud", level: 75 },
+        { name: "Azure", level: 70 },
+        { name: "Serverless", level: 80 }
       ]
     }
   ];

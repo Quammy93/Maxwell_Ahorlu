@@ -7,8 +7,8 @@ const Resume = () => {
   const handleDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Path to your resume file in public folder
-    link.download = 'John_Doe_Resume.pdf'; // Downloaded filename
+    link.href = '/MAXWELL_AHORLU_Resume.pdf'; // Path to your resume file in public folder
+    link.download = 'Maxwell_Ahorlu_Resume.pdf'; // Downloaded filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -16,7 +16,7 @@ const Resume = () => {
 
   const handlePreview = () => {
     // Open resume in new tab for preview
-    window.open('/resume.pdf', '_blank');
+    window.open('/MAXWELL_AHORLU_Resume.pdf', '_blank');
   };
 
   const resumeHighlights = [
@@ -38,8 +38,8 @@ const Resume = () => {
   ];
 
   const quickFacts = [
-    { label: "Experience Level", value: "Entry Level", icon: Clock },
-    { label: "Location", value: "New York, NY", icon: MapPin },
+    { label: "Experience Level", value: "Intermediate Level", icon: Clock },
+    { label: "Location", value: "Accra, Gh", icon: MapPin },
     { label: "Availability", value: "Immediate", icon: Clock }
   ];
 
